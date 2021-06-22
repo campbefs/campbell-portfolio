@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  /* position: fixed; */
+  background-color: rgba(240, 235, 216);
+  display: flex;
+  flex-direction: row;
+  color: rgba(29, 45, 68);
+}
+
+#main-text {
+  margin: 50px 35% 30px 2%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0% 40px 0%;
+}
+
+.link {
+  width: 140px;
+  padding: 0px 5%;
+  font-size: large;
+}
+
+body {
+  background-color: rgba(116, 140, 171);
+}
+
+.about-body {
+  padding: 30px 100px 5px 100px;
+  color: rgba(240, 235, 216);
+  /* font-size: large */
+}
+
+#photo {
+  height: 300px;
+}
