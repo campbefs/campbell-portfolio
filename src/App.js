@@ -5,11 +5,21 @@ import About from './components/About';
 
 function App() {
 
+  const [pages] = useState([
+    'About me',
+    'Portfolio',
+    'Contact',
+    'Resume'
+  ]);
 
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <>
-      <Header/>
+      <Header
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
       <body>
         <About/>
       </body>

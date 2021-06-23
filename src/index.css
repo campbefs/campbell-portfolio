@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,15 +15,17 @@ code {
 }
 
 header {
+  font-family: 'Josefin Sans', cursive;
   /* position: fixed; */
   background-color: rgba(240, 235, 216);
   display: flex;
   flex-direction: row;
-  color: rgba(29, 45, 68);
+  color: rgba(13, 19, 33);
 }
 
 #main-text {
-  margin: 50px 35% 30px 2%;
+  margin: 50px 30% 30px 4%;
+  font-size: 40px;
 }
 
 .nav-links {
@@ -31,9 +35,10 @@ header {
 }
 
 .link {
-  width: 140px;
+  width: 150px;
   padding: 0px 5%;
-  font-size: large;
+  font-weight: bold;
+  font-size: larger;
 }
 
 body {
@@ -48,4 +53,8 @@ body {
 
 #photo {
   height: 300px;
+}
+
+.nav-active {
+  color: rgba(116, 140, 171);
 }

@@ -3,13 +3,21 @@ import Navigation from '../Navigation';
 
 function Header(props) {
 
+  const {
+    currentPage,
+    setCurrentPage
+  } = props;
+
   return (
     
     <header>
       <h1 id="main-text">
         Campbell
       </h1>
-      <Navigation/>
+      <Navigation
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </header>
 
   );
