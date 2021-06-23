@@ -58,3 +58,13 @@ body {
 .nav-active {
   color: rgba(116, 140, 171);
 }
+
+.bottom-link-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-link {
+  margin: 0px 15px;
+}
