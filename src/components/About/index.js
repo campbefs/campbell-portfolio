@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About(props) {
+function About() {
 
   return (
     <div className='about-body'>
@@ -11,9 +11,9 @@ function About(props) {
         <br/>
         <br/>
         My background is in operations and analytics. 
-        I love working on the user experience aspect of products, and enjoy helping scale 
-        products to the delight of a wide audience, leveraging data 
-        to make better decisions.  But I love building getting my hands dirty with programming 
+        I focus mostly on the user experience aspect of products, and enjoy helping scale 
+        products to the delight of a wide audience. I am great at leveraging data 
+        to make better decisions.  But I also love getting my hands dirty with programming 
         just as much as optimizing existing products using data.
         <br/>
         <br/>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Project from './components/Project';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         setCurrentPage={setCurrentPage}
       />
       <body>
-        <About/>
+        {currentPage === 'About me' && <About/>}
+        {currentPage === 'Portfolio' && <Project/>}
       </body>
     </>
   );

@@ -68,3 +68,71 @@ body {
 .bottom-link {
   margin: 0px 15px;
 }
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.inner-portfolio-container {
+  margin: 20px 10% 0% 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projects {
+  margin: 50px 5% 100px 5%;
+  height: 300px;
+  width: 350px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+}
+
+#project-1 {
+  background-image: url('./assets/img/baseball-grey.jpg');
+}
+
+#project-2 {
+  background-image: url('./assets/img/outcast-gray.jpg');
+}
+
+#project-3 {
+  background-image: url('./assets/img/tech-haven-gray.jpg');
+}
+
+#project-4 {
+  background-image: url('./assets/img/weather-dash-gray.jpg');
+}
+
+#project-5 {
+  background-image: url('./assets/img/workday-gray.jpg');
+}
+
+#project-6 {
+  background-image: url('./assets/img/code-quiz-gray.jpg');
+}
+
+.link-div {
+  /* background-color: gray; */
+  /* margin-top: 100px; */
+
+  width: 100%;
+  padding-top: 110px;
+  padding-left: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-link {
+  margin-top: 310px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.projects:hover {
+  opacity: .50;
+}
+
