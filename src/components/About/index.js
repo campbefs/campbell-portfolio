@@ -10,18 +10,17 @@ function About() {
         I am a burgeoning full-stack web develop interested in mastering the latest tools and technologies.
         <br/>
         <br/>
-        My background is in operations and analytics. 
+        My background is in operations and analytics, and I have a passion for technical work. 
         I focus mostly on the user experience aspect of products, and enjoy helping scale 
-        products to the delight of a wide audience. I am great at leveraging data 
-        to make better decisions.  But I also love getting my hands dirty with programming 
-        just as much as optimizing existing products using data.
+        products to the delight of a wide audience. My core skills including leveraging data 
+        to make better product decisions.  But I also love getting my hands dirty with programming and building products from scratch.
         <br/>
         <br/>
-        I am comfortable using HTML and CSS, and skilled in JavaScript, Python and SQL. I enjoy building 
+        I am comfortable using HTML and CSS, and skilled in JavaScript, Python and SQL. As a full-stack developer, I enjoy both building 
         front-end products, as well as working on backend systems and data infrastructure.
         <br/>
         <br/>
-        My breadth of experience in technologies includes Rest APIs, ETL/data pipelines, Node.js, mongoDB (NoSQL), ORM, ODM, webpack,
+        My breadth of experience in technologies includes Rest APIs, ETL/data pipelines, Node.js, Express.js, mongoDB (NoSQL), ORM, ODM, webpack,
         Progressive Web Apps (PWAs), Git, and React.  
         <br/>
         <br/>
