@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer';
 
 function Project() {
 
@@ -59,6 +60,7 @@ function Project() {
 
         </div>
       </div>
+      <Footer/>
     </>
   )
 };

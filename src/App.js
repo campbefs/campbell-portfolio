@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         {currentPage === 'About me' && <About/>}
         {currentPage === 'Portfolio' && <Project/>}
         {currentPage === 'Contact' && <Contact/>}
+        {currentPage === 'Resume' && <Resume/>}
       </body>
     </>
   );

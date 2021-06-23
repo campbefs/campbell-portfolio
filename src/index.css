@@ -55,6 +55,11 @@ body {
   /* font-size: large */
 }
 
+.about-body h1 {
+  font-size: xx-large;
+  color: rgba(13, 19, 33);
+}
+
 #photo {
   height: 300px;
 }
@@ -74,11 +79,13 @@ body {
 }
 
 #portfolio-header {
-  margin: 30px 0px 0px 20px;
+  margin: 50px 100px 5px 100px;
+  /* padding: 30px 100px 5px 100px; */
 }
 
 #instructions {
-  margin: 30px 0px 0px 20px;
+  margin: 30px 0px 0px 100px;
+  color: rgba(240, 235, 216);
 }
 
 .portfolio-container {
@@ -164,7 +171,8 @@ body {
 }
 
 #contact-container {
-  padding: 30px 100px;
+  padding: 30px 100px 5px 100px;
+  /* color: rgba(240, 235, 216); */
 }
 
 #contact-header {
@@ -174,6 +182,7 @@ body {
 #contact-form {
   font-weight: bold;
   font-size: 18px;
+  margin-bottom: 140px;
 }
 
 .input {
@@ -188,7 +197,7 @@ body {
 
 .label-div {
   width: 80px;
-  padding-top: 4px;
+  padding-top: 7px;
 }
 
 input {
@@ -200,6 +209,10 @@ input {
 .message-div {
   display: flex;
   flex-direction: column;
+}
+
+#message-label {
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -215,4 +228,28 @@ textarea {
   border-radius: 5px;
   background-color:  rgba(29, 45, 68);
   color: rgba(240, 235, 216);
+}
+
+.resume-container {
+  padding: 30px 100px 5px 100px;
+  color: rgba(240, 235, 216);
+}
+
+.resume-container h1 {
+  font-size: xx-large;
+  color: rgba(13, 19, 33);
+  margin-bottom: 50px;
+}
+
+.resume-container h3 {
+
+}
+
+.resume-container p {
+  margin-bottom: 30px;
+  font-size: large;
+}
+
+.bullets {
+  padding-left: 25px;
 }

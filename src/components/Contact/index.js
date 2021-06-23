@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-
+import Footer from '../Footer';
 
 function ContactForm() {
   const [ errorMessage, setErrorMessage ] = useState('');
@@ -52,7 +52,7 @@ function ContactForm() {
         </div>
 
         <div class="message-div input">
-          <div>
+          <div id='message-label'>
             <label htmlFor="message">Message:</label>
           </div>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
@@ -66,6 +66,8 @@ function ContactForm() {
 
         <button id="submit-button" type="submit">Submit</button>
       </form>
+
+      <Footer/>
 
     </section>
 
