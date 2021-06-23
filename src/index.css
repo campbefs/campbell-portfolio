@@ -60,6 +60,11 @@ body {
   color: rgba(13, 19, 33);
 }
 
+.about-text {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
 #photo {
   height: 300px;
 }
@@ -86,6 +91,7 @@ body {
 #instructions {
   margin: 30px 0px 0px 100px;
   color: rgba(240, 235, 216);
+  font-size: 20px;
 }
 
 .portfolio-container {
@@ -235,21 +241,36 @@ textarea {
   color: rgba(240, 235, 216);
 }
 
+#resume-link {
+  text-decoration: none;
+  color: rgba(29, 45, 68);
+  font-weight: bold;
+}
+
+#resume-link:hover {
+  color: rgba(62, 92, 118);
+}
+
+
 .resume-container h1 {
   font-size: xx-large;
   color: rgba(13, 19, 33);
   margin-bottom: 50px;
 }
 
-.resume-container h3 {
-
+.resume-container h2 {
+  color: rgba(13, 19, 33);
 }
 
 .resume-container p {
   margin-bottom: 30px;
-  font-size: large;
+  font-size: 20px;
 }
 
 .bullets {
   padding-left: 25px;
+}
+
+footer {
+  margin-bottom: 50px;
 }

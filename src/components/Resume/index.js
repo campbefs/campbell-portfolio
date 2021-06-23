@@ -9,12 +9,12 @@ function Resume() {
     <h1>Resume</h1>
 
     <p>
-      Download my <a href={`${resume}`} download>resume</a>
+      Download my <a id="resume-link" href={`${resume}`} download>resume</a>
     </p>
 
     <div>
-      <h3>Front-end Proficiencies</h3>
-      <p class="bullets">
+      <h2>Front-end Proficiencies</h2>
+      <p className="bullets">
         <span>&#8226;</span> HTML
         <br/>
         <span>&#8226;</span> CSS
@@ -31,8 +31,8 @@ function Resume() {
         <br/>
         <span>&#8226;</span> Progressive Web Apps (PWA)
       </p>
-      <h3>Back-end Proficiencies</h3>
-      <p class="bullets">
+      <h2>Back-end Proficiencies</h2>
+      <p className="bullets">
         <span>&#8226;</span> Python
         <br/>
         <span>&#8226;</span> Rest APIs

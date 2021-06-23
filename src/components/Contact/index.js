@@ -37,21 +37,21 @@ function ContactForm() {
     <section id="contact-container">
       <h1 id='contact-header'>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div class="input-div input">
-          <div class="label-div">
+        <div className="input-div input">
+          <div className="label-div">
             <label htmlFor="name">Name:</label>
           </div>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
         </div>
 
-        <div class="input-div input">
-          <div class="label-div">
+        <div className="input-div input">
+          <div className="label-div">
             <label htmlFor="email">Email:</label>
           </div>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
         </div>
 
-        <div class="message-div input">
+        <div className="message-div input">
           <div id='message-label'>
             <label htmlFor="message">Message:</label>
           </div>
