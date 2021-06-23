@@ -4,32 +4,58 @@ function Project() {
 
   return (
     <>
-      <div id="instructions">Click on the images to see the live websites</div>
+      <h1 id="portfolio-header">Portfolio</h1>
+      <div id="instructions">Click on the images to see the live website</div>
       <div class="portfolio-container">
         <div class="inner-portfolio-container">
-          <a class="projects" id="project-1" href="https://richardyjkim.github.io/my-first-project/">
-            <a class="portfolio-link" href="https://github.com/richardyjkim/my-first-project">Baseball Pick Em Github</a>
-          </a>
+          <div class="gen-container">
+            <a class="projects" id="project-1" href="https://richardyjkim.github.io/my-first-project/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/richardyjkim/my-first-project">
+              Baseball Pick Em <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
+          </div>
 
-          <a class="projects" id="project-2" href="https://outcast-movie-quiz.herokuapp.com/">
-            <a class="portfolio-link" href="https://github.com/DevinPask/Outcast-Project">Box Office Quiz Github</a>
-          </a>
+          <div class="gen-container">
+            <a class="projects" id="project-2" href="https://outcast-movie-quiz.herokuapp.com/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/DevinPask/Outcast-Project">
+              Box Office Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
+          </div>
 
-          <a class="projects" id="project-3" href="https://the-tech-haven.herokuapp.com/">
-            <a class="portfolio-link" href="https://github.com/campbefs/campbell-tech-haven">Tech Haven Github</a>
-          </a>
+          <div class="gen-container">
+            <a class="projects" id="project-3" href="https://the-tech-haven.herokuapp.com/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/campbefs/campbell-tech-haven">
+              Tech Haven Blog <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
 
-          <a class="projects" id="project-4" href="https://campbefs.github.io/campbell-weather-dash/">
-            <a class="portfolio-link" href="https://github.com/campbefs/campbell-weather-dash">Weather Dashboard Github</a>
-          </a>
+          </div>
 
-          <a class="projects" id="project-5" href="https://campbefs.github.io/code-quiz-campbell/">
-            <a class="portfolio-link" href="https://github.com/campbefs/code-quiz-campbell">Work Day Scheduler Github</a>
-          </a>
+          <div class="gen-container">
+            <a class="projects" id="project-4" href="https://campbefs.github.io/campbell-weather-dash/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/campbefs/campbell-weather-dash">
+              Weather Dashboard <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
+          </div>
 
-          <a class="projects" id="project-6" href="https://campbefs.github.io/campbell-calendar/">
-            <a class="portfolio-link" href="https://github.com/campbefs/campbell-calendar">Coding Quiz Github</a>
-          </a>
+          <div class="gen-container">
+            <a class="projects" id="project-5" href="https://campbefs.github.io/code-quiz-campbell/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/campbefs/code-quiz-campbell">
+              Work Day Scheduler <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
+          </div>
+
+          <div class="gen-container">
+            <a class="projects" id="project-6" href="https://campbefs.github.io/campbell-calendar/">
+            </a>
+            <a class="portfolio-link" href="https://github.com/campbefs/campbell-calendar">
+              Coding Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            </a>
+          </div>
 
         </div>
       </div>
