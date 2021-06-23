@@ -12,7 +12,7 @@ function Header(props) {
     
     <header>
       <h1 id="main-text">
-        Campbell
+        Campbell Code
       </h1>
       <Navigation
         currentPage={currentPage}
