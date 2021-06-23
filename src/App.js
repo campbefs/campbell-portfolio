@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <body>
         {currentPage === 'About me' && <About/>}
         {currentPage === 'Portfolio' && <Project/>}
+        {currentPage === 'Contact' && <Contact/>}
       </body>
     </>
   );

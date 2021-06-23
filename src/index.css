@@ -34,6 +34,10 @@ header {
   margin: 40px 0% 40px 0%;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 .link {
   width: 150px;
   padding: 0px 5%;
@@ -137,3 +141,56 @@ body {
   opacity: .50;
 }
 
+#contact-container {
+  padding: 30px 100px;
+}
+
+#contact-header {
+  font-size: 30px;
+}
+
+#contact-form {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.input {
+  margin-top: 15px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+}
+
+.label-div {
+  width: 80px;
+  padding-top: 4px;
+}
+
+input {
+  height: 23px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 380px;
+  border-radius: 5px;
+}
+
+#submit-button {
+  margin-top: 25px;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color:  rgba(29, 45, 68);
+  color: rgba(240, 235, 216);
+}
