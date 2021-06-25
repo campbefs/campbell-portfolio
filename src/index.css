@@ -343,9 +343,9 @@ footer {
 
 /* FULL SCREEN */
 @media screen and (min-width: 1040px) {
-  body {
+  /* body {
     background-color: blue;
-  }
+  } */
 
   header {
     font-family: 'Josefin Sans', cursive;
@@ -368,16 +368,21 @@ footer {
     margin: 40px 20px 40px 0%;
   }
 
+  .body-header {
+    text-align: left;
+  }
+
+  .body-top-container {
+    justify-content: left;
+    margin-left: 100px;
+  }
+
   .input-div, .input-message-div {
     padding-left: 0px;
   }
 
   .resume-container {
     padding: 30px 100px 5px 100px;
-  }
-
-  .body-header {
-    text-align: left;
   }
 
   #contact-header {
