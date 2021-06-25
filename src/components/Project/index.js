@@ -46,7 +46,7 @@ function Project() {
             <a className="projects" id="project-5" href="https://campbefs.github.io/code-quiz-campbell/">
             </a>
             <a className="portfolio-link" href="https://github.com/campbefs/code-quiz-campbell">
-              Work Day Scheduler <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+              Coding Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
             </a>
           </div>
 
@@ -54,7 +54,7 @@ function Project() {
             <a className="projects" id="project-6" href="https://campbefs.github.io/campbell-calendar/">
             </a>
             <a className="portfolio-link" href="https://github.com/campbefs/campbell-calendar">
-              Coding Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+              Work Day Scheduler <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
             </a>
           </div>
 
