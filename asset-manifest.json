@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/campbell-portfolio/static/css/main.6e26b984.chunk.css",
-    "main.js": "/campbell-portfolio/static/js/main.27929082.chunk.js",
-    "main.js.map": "/campbell-portfolio/static/js/main.27929082.chunk.js.map",
+    "main.css": "/campbell-portfolio/static/css/main.2e1d9fca.chunk.css",
+    "main.js": "/campbell-portfolio/static/js/main.78ed3b3f.chunk.js",
+    "main.js.map": "/campbell-portfolio/static/js/main.78ed3b3f.chunk.js.map",
     "runtime-main.js": "/campbell-portfolio/static/js/runtime-main.853557b4.js",
     "runtime-main.js.map": "/campbell-portfolio/static/js/runtime-main.853557b4.js.map",
     "static/js/2.5cbb702b.chunk.js": "/campbell-portfolio/static/js/2.5cbb702b.chunk.js",
     "static/js/2.5cbb702b.chunk.js.map": "/campbell-portfolio/static/js/2.5cbb702b.chunk.js.map",
     "index.html": "/campbell-portfolio/index.html",
-    "static/css/main.6e26b984.chunk.css.map": "/campbell-portfolio/static/css/main.6e26b984.chunk.css.map",
+    "static/css/main.2e1d9fca.chunk.css.map": "/campbell-portfolio/static/css/main.2e1d9fca.chunk.css.map",
     "static/js/2.5cbb702b.chunk.js.LICENSE.txt": "/campbell-portfolio/static/js/2.5cbb702b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/campbell-portfolio/static/media/workday-gray.f0c79a77.jpg",
     "static/media/resume_swe.a34f2c6a.docx": "/campbell-portfolio/static/media/resume_swe.a34f2c6a.docx"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.853557b4.js",
     "static/js/2.5cbb702b.chunk.js",
-    "static/css/main.6e26b984.chunk.css",
-    "static/js/main.27929082.chunk.js"
+    "static/css/main.2e1d9fca.chunk.css",
+    "static/js/main.78ed3b3f.chunk.js"
   ]
 }
