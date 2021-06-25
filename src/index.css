@@ -26,6 +26,10 @@ header {
   background-color: rgba(240, 235, 216);
   color: rgba(13, 19, 33);
   width: 100%;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #main-text {
@@ -40,7 +44,9 @@ header {
   font-size: 13px;
   display: flex;
   flex-direction: row;
-  margin: 0px 0% 10px 0%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .nav-link {
@@ -303,6 +309,8 @@ footer {
   
   .nav-links {
     font-size: medium;
+    width: 100%;
+    justify-content: center;
   }
 
   #contact-container {
@@ -335,9 +343,9 @@ footer {
 
 /* FULL SCREEN */
 @media screen and (min-width: 1040px) {
-  /* body {
-    background-color: pink;
-  } */
+  body {
+    background-color: blue;
+  }
 
   header {
     font-family: 'Josefin Sans', cursive;
@@ -357,15 +365,19 @@ footer {
   .nav-links {
     display: flex;
     flex-direction: row;
-    margin: 40px 0% 40px 0%;
+    margin: 40px 20px 40px 0%;
   }
-  
-  .nav-link {
-    cursor: pointer;
+
+  .input-div, .input-message-div {
+    padding-left: 0px;
   }
 
   .resume-container {
     padding: 30px 100px 5px 100px;
+  }
+
+  .body-header {
+    text-align: left;
   }
 
   #contact-header {
