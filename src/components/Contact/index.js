@@ -35,7 +35,7 @@ function ContactForm() {
 
   return (
     <section id="contact-container">
-      <h1 id='contact-header'>Contact me</h1>
+      <h1 className="body-header" id='contact-header'>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="input-div input">
           <div className="label-div">
@@ -51,20 +51,23 @@ function ContactForm() {
           <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
         </div>
 
-        <div className="message-div input">
-          <div id='message-label'>
-            <label htmlFor="message">Message:</label>
+        <div className="input-message-div">
+          <div className="message-div input">
+            <div id='message-label'>
+              <label htmlFor="message">Message:</label>
+            </div>
+            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
           </div>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
-        </div>
 
-        {errorMessage && (
+          {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
 
         <button id="submit-button" type="submit">Submit</button>
+        </div>
+
       </form>
 
       <Footer/>

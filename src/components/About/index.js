@@ -5,8 +5,10 @@ function About() {
 
   return (
     <section className='about-body'>
-      <h1>About Me</h1>
-      <img id="photo" src="https://avatars.githubusercontent.com/u/72893700?v=4" alt="profile photo"/>      
+      <h1 className="body-header">About Me</h1>
+      <div className="body-top-container">
+        <img id="photo" src="https://avatars.githubusercontent.com/u/72893700?v=4" alt="profile photo"/>      
+      </div>
       <p className="about-text">
         I am a burgeoning full-stack web developer interested in mastering the latest tools and technologies. I currently work for Facebook and have previously worked at Wayfair and Liberty Mutual.
         <br/>

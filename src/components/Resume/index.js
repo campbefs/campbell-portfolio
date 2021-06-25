@@ -6,7 +6,8 @@ function Resume() {
 
   return (
   <section className='resume-container'>
-    <h1>Resume</h1>
+    
+    <h1 class="body-header">Resume</h1>
 
     <p>
       Download my <a id="resume-link" href={`${resume}`} download>resume</a>

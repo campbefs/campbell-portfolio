@@ -5,8 +5,8 @@ function Project() {
 
   return (
     <>
-      <h1 id="portfolio-header">Portfolio</h1>
-      <div id="instructions">Click on the images to see the live website</div>
+      <h1 className="body-header" id="portfolio-header">Portfolio</h1>
+      <div className="body-top-container" id="instructions">Click on the images to see the live website</div>
       <div className="portfolio-container">
         <div className="inner-portfolio-container">
           <div className="gen-container">

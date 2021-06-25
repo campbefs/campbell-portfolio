@@ -18,7 +18,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <>
+    <html>
       <Header
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
@@ -29,7 +29,7 @@ function App() {
         {currentPage === 'Contact' && <Contact/>}
         {currentPage === 'Resume' && <Resume/>}
       </body>
-    </>
+    </html>
   );
 }
 
