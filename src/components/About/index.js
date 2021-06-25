@@ -6,7 +6,7 @@ function About() {
   return (
     <section className='about-body'>
       <h1 className="body-header">About Me</h1>
-      <div className="body-top-container">
+      <div className="body-top-container" id="photo-container">
         <img id="photo" src="https://avatars.githubusercontent.com/u/72893700?v=4" alt="profile photo"/>      
       </div>
       <p className="about-text">

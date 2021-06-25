@@ -377,6 +377,10 @@ footer {
     margin-left: 100px;
   }
 
+  #photo-container {
+    margin-left: 0px;
+  }
+
   .input-div, .input-message-div {
     padding-left: 0px;
   }
