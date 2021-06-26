@@ -43,18 +43,18 @@ function Project() {
           </div>
 
           <div className="gen-container">
-            <a className="projects" id="project-5" href="https://campbefs.github.io/code-quiz-campbell/">
+            <a className="projects" id="project-5" href="https://campbefs.github.io/campbell-calendar/">
             </a>
-            <a className="portfolio-link" href="https://github.com/campbefs/code-quiz-campbell">
-              Coding Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            <a className="portfolio-link" href="https://github.com/campbefs/campbell-calendar">
+              Work Day Scheduler <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
             </a>
           </div>
 
           <div className="gen-container">
-            <a className="projects" id="project-6" href="https://campbefs.github.io/campbell-calendar/">
+            <a className="projects" id="project-6" href="https://campbefs.github.io/code-quiz-campbell/">
             </a>
-            <a className="portfolio-link" href="https://github.com/campbefs/campbell-calendar">
-              Work Day Scheduler <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
+            <a className="portfolio-link" href="https://github.com/campbefs/code-quiz-campbell">
+              Coding Quiz <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
             </a>
           </div>
 
