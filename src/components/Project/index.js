@@ -10,9 +10,9 @@ function Project() {
       <div className="portfolio-container">
         <div className="inner-portfolio-container">
           <div className="gen-container">
-            <a className="projects" id="project-1" href="https://richardyjkim.github.io/my-first-project/">
+            <a className="projects" id="project-1" href="https://github.com/campbefs/baseball-pickem">
             </a>
-            <a className="portfolio-link" href="https://github.com/richardyjkim/my-first-project">
+            <a className="portfolio-link" href="https://campbefs.github.io/baseball-pickem/">
               Baseball Pick Em <br/><img src="https://img.icons8.com/metro/26/000000/github.png"/>
             </a>
           </div>
