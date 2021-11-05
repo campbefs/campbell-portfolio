@@ -38,5 +38,5 @@
   This application is covered under the following license: [The Unlicense](http://unlicense.org/)
 
   ## Live Application Snapshot
-  Live Applcation can be found [here](https://campbefs.github.io/campbell-portfolio/)
+  Live Application can be found [here](https://campbefs.github.io/campbell-portfolio/)
   ![alt text](./src/assets/img/screenshot.JPG 'Live Application Screenshot')
