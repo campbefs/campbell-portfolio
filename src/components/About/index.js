@@ -10,7 +10,7 @@ function About() {
         <img id="photo" src="https://avatars.githubusercontent.com/u/72893700?v=4" alt="profile photo"/>      
       </div>
       <p className="about-text">
-        I am a full-stack web developer & product analyst interested in mastering the latest tools and technologies. I currently work for Facebook and have previously worked at Wayfair and Liberty Mutual.
+        I am a full-stack web developer & senior data scientist interested in mastering the latest tools and technologies. I currently work for Facebook and have previously worked at Wayfair and Liberty Mutual.
         <br/>
         <br/>
         My background is in operations and analytics, and I have a passion for technical work. 
